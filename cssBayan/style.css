@@ -128,7 +128,7 @@ input:checked+.bayan__link .link__img {
     transition: all 1s;
 }
 
-input:checked+.bayan__link .link__img img {
+input:checked+.bayan__link img {
     height: auto;
     width: 90%;
 }
@@ -194,7 +194,6 @@ input {
         box-shadow: 0 0 1.25rem 0.625rem #171717;
         transition:  box-shadow 1s;
         cursor: pointer;
-        
     }
     
     .bayan__link:hover .title__text {
