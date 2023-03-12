@@ -169,12 +169,7 @@ input {
         font-size: 1.875rem;
     }
 
-.bayan__link:active label,
-.bayan__link:active .title__text,
-.bayan__link:active .link__img img,
-.bayan__link:active .title__icon{
-    cursor: wait;
-}
+
 }
 @media (hover:hover){
     .bayan__link:hover {
@@ -217,6 +212,13 @@ input {
         height: 1.875rem;
         transform: rotate(225deg);
         transition: transform 2s;
+    }
+
+    .bayan__link:active label,
+    .bayan__link:active .title__text,
+    .bayan__link:active .link__img img,
+    .bayan__link:active .title__icon{
+        cursor: wait;
     }
 }
 
